@@ -1,0 +1,321 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'solc' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData solc
+8 silly fetchNamedPackageData solc
+9 silly mapToRegistry name solc
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/solc
+13 verbose request uri https://registry.npmjs.org/solc
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 6:15:48 PM
+16 verbose request id fbe0011de40e49bf
+17 verbose etag W/"89f1cbb7d7f1e790df9f75133227a410"
+18 verbose lastModified Wed, 18 May 2022 18:23:51 GMT
+19 http request GET https://registry.npmjs.org/solc
+20 http 304 https://registry.npmjs.org/solc
+21 verbose headers { date: 'Sun, 29 May 2022 23:15:48 GMT',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'cf-ray': '7132ef25691593d7-DFW',
+21 verbose headers   'cache-control': 'public, max-age=300',
+21 verbose headers   etag: '"89f1cbb7d7f1e790df9f75133227a410"',
+21 verbose headers   'last-modified': 'Wed, 18 May 2022 18:23:51 GMT',
+21 verbose headers   vary: 'Accept-Encoding',
+21 verbose headers   'cf-cache-status': 'REVALIDATED',
+21 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+21 verbose headers   'x-amz-replication-status': 'COMPLETED',
+21 verbose headers   server: 'cloudflare' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Sun, 29 May 2022 23:15:48 GMT',
+22 silly get     connection: 'keep-alive',
+22 silly get     'cf-ray': '7132ef25691593d7-DFW',
+22 silly get     'cache-control': 'public, max-age=300',
+22 silly get     etag: '"89f1cbb7d7f1e790df9f75133227a410"',
+22 silly get     'last-modified': 'Wed, 18 May 2022 18:23:51 GMT',
+22 silly get     vary: 'Accept-Encoding',
+22 silly get     'cf-cache-status': 'REVALIDATED',
+22 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 silly get     'x-amz-replication-status': 'COMPLETED',
+22 silly get     server: 'cloudflare' } ]
+23 verbose etag https://registry.npmjs.org/solc from cache
+24 verbose get saving solc to /home/rkbrian/.npm/registry.npmjs.org/solc/.cache.json
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule solc@0.8.14-fixed checking installable status
+38 silly cache add args [ 'solc', null ]
+39 verbose cache add spec solc
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'solc',
+40 silly cache add   scope: null,
+40 silly cache add   name: 'solc',
+40 silly cache add   rawSpec: '',
+40 silly cache add   spec: 'latest',
+40 silly cache add   type: 'tag' }
+41 silly addNamed solc@latest
+42 verbose addNamed "latest" is being treated as a dist-tag for solc
+43 info addNameTag [ 'solc', 'latest' ]
+44 silly mapToRegistry name solc
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/solc
+48 verbose addNameTag registry:https://registry.npmjs.org/solc not in flight; fetching
+49 verbose get https://registry.npmjs.org/solc not expired, no request
+50 silly addNameTag next cb for solc with tag latest
+51 silly addNamed solc@0.8.14-fixed
+52 verbose addNamed "0.8.14-fixed" is a plain semver version for solc
+53 silly cache afterAdd solc@0.8.14-fixed
+54 verbose afterAdd /home/rkbrian/.npm/solc/0.8.14-fixed/package/package.json not in flight; writing
+55 verbose afterAdd /home/rkbrian/.npm/solc/0.8.14-fixed/package/package.json written
+56 silly fetchNamedPackageData command-exists
+57 silly mapToRegistry name command-exists
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry uri https://registry.npmjs.org/command-exists
+61 silly fetchNamedPackageData commander
+62 silly mapToRegistry name commander
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry uri https://registry.npmjs.org/commander
+66 silly fetchNamedPackageData follow-redirects
+67 silly mapToRegistry name follow-redirects
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry uri https://registry.npmjs.org/follow-redirects
+71 silly fetchNamedPackageData js-sha3
+72 silly mapToRegistry name js-sha3
+73 silly mapToRegistry using default registry
+74 silly mapToRegistry registry https://registry.npmjs.org/
+75 silly mapToRegistry uri https://registry.npmjs.org/js-sha3
+76 silly fetchNamedPackageData memorystream
+77 silly mapToRegistry name memorystream
+78 silly mapToRegistry using default registry
+79 silly mapToRegistry registry https://registry.npmjs.org/
+80 silly mapToRegistry uri https://registry.npmjs.org/memorystream
+81 silly fetchNamedPackageData semver
+82 silly mapToRegistry name semver
+83 silly mapToRegistry using default registry
+84 silly mapToRegistry registry https://registry.npmjs.org/
+85 silly mapToRegistry uri https://registry.npmjs.org/semver
+86 silly fetchNamedPackageData tmp
+87 silly mapToRegistry name tmp
+88 silly mapToRegistry using default registry
+89 silly mapToRegistry registry https://registry.npmjs.org/
+90 silly mapToRegistry uri https://registry.npmjs.org/tmp
+91 verbose request uri https://registry.npmjs.org/command-exists
+92 verbose request no auth needed
+93 info attempt registry request try #1 at 6:15:49 PM
+94 verbose etag W/"a8d73876bd03b768aea2c9e815bde2c5"
+95 verbose lastModified Thu, 26 May 2022 08:41:34 GMT
+96 http request GET https://registry.npmjs.org/command-exists
+97 verbose request uri https://registry.npmjs.org/semver
+98 verbose request no auth needed
+99 info attempt registry request try #1 at 6:15:49 PM
+100 verbose etag W/"4a024bd665d81a9aefe882f37beda7cc"
+101 verbose lastModified Tue, 17 May 2022 10:52:01 GMT
+102 http request GET https://registry.npmjs.org/semver
+103 verbose request uri https://registry.npmjs.org/memorystream
+104 verbose request no auth needed
+105 info attempt registry request try #1 at 6:15:49 PM
+106 verbose etag W/"b5366c4a09625cd7bd17e194a60f8dc8"
+107 verbose lastModified Sun, 27 May 2018 07:48:21 GMT
+108 http request GET https://registry.npmjs.org/memorystream
+109 verbose request uri https://registry.npmjs.org/tmp
+110 verbose request no auth needed
+111 info attempt registry request try #1 at 6:15:49 PM
+112 verbose etag W/"0756e48c094b57998d4c490e23c7c986"
+113 verbose lastModified Sat, 21 May 2022 23:19:37 GMT
+114 http request GET https://registry.npmjs.org/tmp
+115 verbose request uri https://registry.npmjs.org/follow-redirects
+116 verbose request no auth needed
+117 info attempt registry request try #1 at 6:15:49 PM
+118 verbose etag W/"3379cb5901ede2fec51f08e58f833710"
+119 verbose lastModified Sat, 28 May 2022 16:26:34 GMT
+120 http request GET https://registry.npmjs.org/follow-redirects
+121 verbose request uri https://registry.npmjs.org/js-sha3
+122 verbose request no auth needed
+123 info attempt registry request try #1 at 6:15:49 PM
+124 verbose etag W/"0b0e4dd8ba9bbdb1b7ed68a0720b6127"
+125 verbose lastModified Sun, 29 May 2022 22:11:04 GMT
+126 http request GET https://registry.npmjs.org/js-sha3
+127 http 304 https://registry.npmjs.org/command-exists
+128 verbose headers { date: 'Sun, 29 May 2022 23:15:49 GMT',
+128 verbose headers   connection: 'keep-alive',
+128 verbose headers   'cf-ray': '7132ef289e4093d7-DFW',
+128 verbose headers   age: '142',
+128 verbose headers   'cache-control': 'public, max-age=300',
+128 verbose headers   etag: '"a8d73876bd03b768aea2c9e815bde2c5"',
+128 verbose headers   'last-modified': 'Thu, 26 May 2022 08:41:34 GMT',
+128 verbose headers   vary: 'Accept-Encoding',
+128 verbose headers   'cf-cache-status': 'HIT',
+128 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+128 verbose headers   'x-amz-replication-status': 'PENDING',
+128 verbose headers   server: 'cloudflare' }
+129 silly get cb [ 304,
+129 silly get   { date: 'Sun, 29 May 2022 23:15:49 GMT',
+129 silly get     connection: 'keep-alive',
+129 silly get     'cf-ray': '7132ef289e4093d7-DFW',
+129 silly get     age: '142',
+129 silly get     'cache-control': 'public, max-age=300',
+129 silly get     etag: '"a8d73876bd03b768aea2c9e815bde2c5"',
+129 silly get     'last-modified': 'Thu, 26 May 2022 08:41:34 GMT',
+129 silly get     vary: 'Accept-Encoding',
+129 silly get     'cf-cache-status': 'HIT',
+129 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+129 silly get     'x-amz-replication-status': 'PENDING',
+129 silly get     server: 'cloudflare' } ]
+130 verbose etag https://registry.npmjs.org/command-exists from cache
+131 verbose get saving command-exists to /home/rkbrian/.npm/registry.npmjs.org/command-exists/.cache.json
+132 verbose request uri https://registry.npmjs.org/commander
+133 verbose request no auth needed
+134 info attempt registry request try #1 at 6:15:49 PM
+135 verbose etag W/"162a36c4399bd7b363180ffc638aab30"
+136 verbose lastModified Sat, 28 May 2022 02:47:08 GMT
+137 http request GET https://registry.npmjs.org/commander
+138 silly resolveWithNewModule command-exists@1.2.9 checking installable status
+139 silly cache add args [ 'command-exists@^1.2.8', null ]
+140 verbose cache add spec command-exists@^1.2.8
+141 silly cache add parsed spec Result {
+141 silly cache add   raw: 'command-exists@^1.2.8',
+141 silly cache add   scope: null,
+141 silly cache add   name: 'command-exists',
+141 silly cache add   rawSpec: '^1.2.8',
+141 silly cache add   spec: '>=1.2.8 <2.0.0',
+141 silly cache add   type: 'range' }
+142 silly addNamed command-exists@>=1.2.8 <2.0.0
+143 verbose addNamed ">=1.2.8 <2.0.0" is a valid semver range for command-exists
+144 silly addNameRange { name: 'command-exists',
+144 silly addNameRange   range: '>=1.2.8 <2.0.0',
+144 silly addNameRange   hasData: false }
+145 silly mapToRegistry name command-exists
+146 silly mapToRegistry using default registry
+147 silly mapToRegistry registry https://registry.npmjs.org/
+148 silly mapToRegistry uri https://registry.npmjs.org/command-exists
+149 verbose addNameRange registry:https://registry.npmjs.org/command-exists not in flight; fetching
+150 verbose get https://registry.npmjs.org/command-exists not expired, no request
+151 silly addNameRange number 2 { name: 'command-exists',
+151 silly addNameRange   range: '>=1.2.8 <2.0.0',
+151 silly addNameRange   hasData: true }
+152 silly addNameRange versions [ 'command-exists',
+152 silly addNameRange   [ '0.1.0',
+152 silly addNameRange     '0.1.1',
+152 silly addNameRange     '1.0.0',
+152 silly addNameRange     '1.0.1',
+152 silly addNameRange     '1.0.2',
+152 silly addNameRange     '1.1.0',
+152 silly addNameRange     '1.2.0',
+152 silly addNameRange     '1.2.1',
+152 silly addNameRange     '1.2.2',
+152 silly addNameRange     '1.2.3',
+152 silly addNameRange     '1.2.4',
+152 silly addNameRange     '1.2.5',
+152 silly addNameRange     '1.2.6',
+152 silly addNameRange     '1.2.7',
+152 silly addNameRange     '1.2.8',
+152 silly addNameRange     '1.2.9' ] ]
+153 silly addNamed command-exists@1.2.9
+154 verbose addNamed "1.2.9" is a plain semver version for command-exists
+155 silly cache afterAdd command-exists@1.2.9
+156 verbose afterAdd /home/rkbrian/.npm/command-exists/1.2.9/package/package.json not in flight; writing
+157 verbose afterAdd /home/rkbrian/.npm/command-exists/1.2.9/package/package.json written
+158 http 304 https://registry.npmjs.org/commander
+159 verbose headers { date: 'Sun, 29 May 2022 23:15:49 GMT',
+159 verbose headers   connection: 'keep-alive',
+159 verbose headers   'cf-ray': '7132ef290ee293d7-DFW',
+159 verbose headers   age: '186',
+159 verbose headers   'cache-control': 'public, max-age=300',
+159 verbose headers   etag: '"162a36c4399bd7b363180ffc638aab30"',
+159 verbose headers   'last-modified': 'Sat, 28 May 2022 02:47:08 GMT',
+159 verbose headers   vary: 'Accept-Encoding',
+159 verbose headers   'cf-cache-status': 'HIT',
+159 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+159 verbose headers   'x-amz-replication-status': 'PENDING',
+159 verbose headers   server: 'cloudflare' }
+160 silly get cb [ 304,
+160 silly get   { date: 'Sun, 29 May 2022 23:15:49 GMT',
+160 silly get     connection: 'keep-alive',
+160 silly get     'cf-ray': '7132ef290ee293d7-DFW',
+160 silly get     age: '186',
+160 silly get     'cache-control': 'public, max-age=300',
+160 silly get     etag: '"162a36c4399bd7b363180ffc638aab30"',
+160 silly get     'last-modified': 'Sat, 28 May 2022 02:47:08 GMT',
+160 silly get     vary: 'Accept-Encoding',
+160 silly get     'cf-cache-status': 'HIT',
+160 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+160 silly get     'x-amz-replication-status': 'PENDING',
+160 silly get     server: 'cloudflare' } ]
+161 verbose etag https://registry.npmjs.org/commander from cache
+162 verbose get saving commander to /home/rkbrian/.npm/registry.npmjs.org/commander/.cache.json
+163 http 304 https://registry.npmjs.org/follow-redirects
+164 verbose headers { date: 'Sun, 29 May 2022 23:15:49 GMT',
+164 verbose headers   connection: 'keep-alive',
+164 verbose headers   'cf-ray': '7132ef2938059ece-DFW',
+164 verbose headers   age: '64',
+164 verbose headers   'cache-control': 'public, max-age=300',
+164 verbose headers   etag: '"3379cb5901ede2fec51f08e58f833710"',
+164 verbose headers   'last-modified': 'Sat, 28 May 2022 16:26:34 GMT',
+164 verbose headers   vary: 'Accept-Encoding',
+164 verbose headers   'cf-cache-status': 'HIT',
+164 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+164 verbose headers   'x-amz-replication-status': 'PENDING',
+164 verbose headers   server: 'cloudflare' }
+165 silly get cb [ 304,
+165 silly get   { date: 'Sun, 29 May 2022 23:15:49 GMT',
+165 silly get     connection: 'keep-alive',
+165 silly get     'cf-ray': '7132ef2938059ece-DFW',
+165 silly get     age: '64',
+165 silly get     'cache-control': 'public, max-age=300',
+165 silly get     etag: '"3379cb5901ede2fec51f08e58f833710"',
+165 silly get     'last-modified': 'Sat, 28 May 2022 16:26:34 GMT',
+165 silly get     vary: 'Accept-Encoding',
+165 silly get     'cf-cache-status': 'HIT',
+165 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+165 silly get     'x-amz-replication-status': 'PENDING',
+165 silly get     server: 'cloudflare' } ]
+166 verbose etag https://registry.npmjs.org/follow-redirects from cache
+167 verbose get saving follow-redirects to /home/rkbrian/.npm/registry.npmjs.org/follow-redirects/.cache.json
+168 verbose stack Error: Missing required argument #1
+168 verbose stack     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+168 verbose stack     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+168 verbose stack     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+168 verbose stack     at /usr/share/npm/lib/install/deps.js:457:7
+168 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+168 verbose stack     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+168 verbose stack     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+168 verbose stack     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+168 verbose stack     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+168 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+169 verbose cwd /mnt/e/more repo/capstone_project_v01
+170 error Linux 4.4.0-19041-Microsoft
+171 error argv "/usr/bin/node" "/usr/bin/npm" "install" "-g" "solc"
+172 error node v8.10.0
+173 error npm  v3.5.2
+174 error code EMISSINGARG
+175 error typeerror Error: Missing required argument #1
+175 error typeerror     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+175 error typeerror     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+175 error typeerror     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+175 error typeerror     at /usr/share/npm/lib/install/deps.js:457:7
+175 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+175 error typeerror     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+175 error typeerror     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+175 error typeerror     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+175 error typeerror     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+175 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+176 error typeerror This is an error with npm itself. Please report this error at:
+176 error typeerror     <http://github.com/npm/npm/issues>
+177 verbose exit [ 1, true ]

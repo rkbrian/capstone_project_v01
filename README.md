@@ -9,3 +9,6 @@ Goal: implementing a smart contract that allows users to create, update, and del
    - [**0.8.0 Version Changes**](https://docs.soliditylang.org/en/develop/080-breaking-changes.html)
    - [**Library**](https://github.com/OpenZeppelin/openzeppelin-contracts)
    - [**ERC721**](https://docs.openzeppelin.com/contracts/4.x/erc721)
+
+## Notes:
+ - InterPlanetary File System (IPFS): We can save the XR object on the IPFS for complete decentralization.
