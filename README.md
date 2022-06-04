@@ -11,4 +11,4 @@ Goal: implementing a smart contract that allows users to create, update, and del
    - [**ERC721**](https://docs.openzeppelin.com/contracts/4.x/erc721)
 
 ## Notes:
- - InterPlanetary File System (IPFS): We can save the XR object on the IPFS for complete decentralization.
+ - InterPlanetary File System (IPFS): We can save the XR object and the NFT json files on the IPFS for complete decentralization, instead of Mongo DB.
