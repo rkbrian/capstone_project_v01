@@ -10,10 +10,14 @@ Goal: implementing a smart contract that allows users to create, update, and del
    - [**0.8.0 Version Changes**](https://docs.soliditylang.org/en/develop/080-breaking-changes.html)
    - [**Library**](https://github.com/OpenZeppelin/openzeppelin-contracts)
    - [**ERC721**](https://docs.openzeppelin.com/contracts/4.x/erc721)
-### Polygon / Matic
+### Polygon / Matic Connection:
  - Resources and References:
    - [**Introduction**](https://www.kraken.com/en-us/learn/what-is-polygon-matic)
    - [**Polygon**](https://polygon.io/)
+   - Required packages:
+     - ethers.js (npm install ethers)
+     - web3.js (npm install web3)
+     - 
 ## Documentation:
  - Solidity: a language that is used to write smart contracts, JavaScript base.
    - ERC721: a Solidity smart contract for NFTs.

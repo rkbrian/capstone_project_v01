@@ -5,6 +5,7 @@ axios.get('http://54.160.152.220/api/v1/prods')
   .then(function (response) {
     // handle success
     console.log(response.data.data.data[0].id);
+    console.log(response);
   })
   .catch(function (error) {
     // handle error
