@@ -25,3 +25,7 @@ Goal: implementing a smart contract that allows users to create, update, and del
    - (TBD)
  - InterPlanetary File System (IPFS): We can save the XR object and the NFT json files on the IPFS for complete decentralization, instead of Mongo DB.
    - *Plan abolished, we use Mongo DB & AWS*
+
+# v02
+sudo npm install crypto-js
+sudo npm install elliptic-curve
