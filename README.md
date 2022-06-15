@@ -27,5 +27,6 @@ Goal: implementing a smart contract that allows users to create, update, and del
    - *Plan abolished, we use Mongo DB & AWS*
 
 # v02
-sudo npm install crypto-js
-sudo npm install elliptic-curve
+ - sudo npm install crypto-js
+ - sudo npm install elliptic-curve
+ - sudo npm install fs
