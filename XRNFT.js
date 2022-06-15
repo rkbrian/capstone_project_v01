@@ -8,20 +8,23 @@ const ec = new ecLib('secp256k1');
 // Encryption: signature, public key encryption, and private key decryption
 export class Encryption {
     constructor(data, publicKeySeller, publicKeyBuyer) {
+        // data: the data to be encrypted, should be the same as the data in the block
+        // publicKeySeller: the public key of the seller
+        // publicKeyBuyer: the public key of the buyer
         this.data = data;
         this.from = publicKeySeller;
         this.to = publicKeyBuyer;
     }
 
+    // compute the hash of the data, prepared for signing
     computeHash() {
         return sha256(JSON.stringify(this.data) + this.from + this.to).toString();
     }
-
-    // si
+    // signature generating, sign the data with the private key
     sign(key) {
         this.signature = key.sign(this.computeHash(), 'base64').toDER('hex');
     }
-
+    // verify the signature with the public key
     isValid() {
         if(this.from === ""){
             return true;
@@ -51,11 +54,6 @@ export class Block {
     // fuction to calculate the hash of the block
     calculateHash() {
         return sha256(this.index + this.previousHash + JSON.stringify(this.data)).toString();
-    }
-    // function to generate the signature of the block
-    sign(publicKey, data) {
-        const signature = Encryption(this.index, data, publicKey);
-        return signature.sign(publicKey);
     }
 }
 
@@ -88,6 +86,10 @@ export class Chain {
             const currentBlock = this.chain[i];
             const previousBlock = this.chain[i - 1];
             const blockSignature = currentBlock.signature;
+            // check if the hash of the block is valid
+            // check if the hash of the previous block is valid
+            // check if the signature of the block is valid
+            // check if the data used for generating the signature is valid
             if (currentBlock.hash !== currentBlock.calculateHash()) {
                 return false;
             }
@@ -95,6 +97,9 @@ export class Chain {
                 return false;
             }
             if (!blockSignature.isValid()) {
+                return false;
+            }
+            if (currentBlock.signature.data !== currentBlock.data) {
                 return false;
             }
         }

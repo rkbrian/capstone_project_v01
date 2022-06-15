@@ -33,5 +33,5 @@ else {
     console.log('Invalid signature');
 }
 
-// console.log(myChain);
+console.log(myChain);
 console.log(myChain.isChainValid());
