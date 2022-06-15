@@ -3,7 +3,8 @@
     "@openzeppelin/contracts": "^4.6.0",
     "axios": "^0.27.2",
     "crypto-js": "^4.1.1",
-    "elliptic-curve": "^0.1.0"
+    "elliptic-curve": "^0.1.0",
+    "fs": "^0.0.1-security"
   },
   "name": "capstone_project_v01",
   "description": "Goal: implementing a smart contract that allows users to create, update, and delete blockchain data for NFT objects on our ecommerse website.\r ## Solidity:\r         []: # Language: solidity\r         []: # Path: XRNFT.sol\r  - Resources and References:\r    - [**Layout**](https://docs.soliditylang.org/en/develop/layout-of-source-files.html)\r    - [**0.8.0 Version Changes**](https://docs.soliditylang.org/en/develop/080-breaking-changes.html)\r    - [**Library**](https://github.com/OpenZeppelin/openzeppelin-contracts)\r    - [**ERC721**](https://docs.openzeppelin.com/contracts/4.x/erc721)",
