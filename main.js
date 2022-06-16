@@ -33,11 +33,11 @@ fs.readFile('test.json', 'utf8', function (err, data) {
     else {
         console.log('Invalid signature');
     }
-    fs.writeFile('public_key.txt', publicKeySeller, function (err) {
+    fs.writeFile('public_key.txt', publicKeyBuyer, function (err) {
         if (err) throw err;
         console.log('File is created successfully.');
     });
-    console.log('Your public key: ' + publicKeySeller);
+    console.log('Your public key: ' + publicKeyBuyer);
     console.log(myChain);
     console.log(myChain.isChainValid());    
 });
